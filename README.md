@@ -9,14 +9,14 @@ Data Reliability: The project makes the assumption that historical meteorologica
 Renewable Energy Generation: It is thought that weather-related factors and the production of renewable energy are directly correlated. Clear skies and lots of sunlight are thought to increase the amount of electricity that solar panels can produce. In a similar vein, higher wind speeds are thought to result in more energy being produced by wind turbines  (Devisingh,,2018).
 Threshold Determination: Based on the availability of surplus energy, the project seeks to establish thresholds for the provision of free energy. It is assumed that excess energy results from the generation of renewable energy exceeding local energy demand. In addition to taking grid capacity and storage capacity into account, this analysis may entail looking at historical data on energy output and consumption  (Kumar,2019).
 Consumer Behavior: It is implied that consumers will use energy efficiently and will respond favorably to offers of free energy. On the basis of the company's alerts, it is assumed that consumers in the target area will choose to get free energy during surplus periods. It could be necessary to do pilot tests or market research to further validate this premise (White,2018).
-External Factors: While natural disasters, legislative changes, and technology developments may have an impact on energy production and consumption, they are not specifically addressed in this study. It is anticipated that these variables will be indirectly taken into consideration by the forecasting model through the use of trend analysis and hi
+External Factors: While natural disasters, legislative changes, and technology developments may have an impact on energy production and consumption, they are not specifically addressed in this study. It is anticipated that these variables will be indirectly taken into consideration by the forecasting model through the use of trend analysis and historical data (White,2018).
 
 ## NOTE:
- Separation of Data Preprocessing and Model Building
+# Separation of Data Preprocessing and Model Building
 I have split the data preprocessing and model building tasks into separate Jupyter notebooks. The model building notebook includes both the data preprocessing and model building code for the Brighton dataset.
-Data Preprocessing Notebook:
+# Data Preprocessing Notebook:
 Contains all data preprocessing steps for the Brighton dataset.
 Model Building Notebook:Includes both data preprocessing and model building code for the Brighton dataset.
 This separation ensures modularity and ease of use while maintaining the required data preprocessing for model building.
-storical data (White,2018).
+
 
