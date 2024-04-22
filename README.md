@@ -13,8 +13,7 @@ Data Preprocessing Notebook:
 Contains all data preprocessing steps for the Brighton dataset.
 Model Building Notebook:Includes both data preprocessing and model building code for the Brighton dataset.
 This separation ensures modularity and ease of use while maintaining the required data preprocessing for model building.
-ASSUMPTIONS:
-
+## ASSUMPTIONS:
 Data Reliability: The project makes the assumption that historical meteorological information on temperature, humidity, wind speed, and precipitation truly depicts the environmental factors that are important for the production of renewable energy. It also makes the assumption that records of energy output under these meteorological conditions are accurate and comprehensive  (Rodríguez,2020).
 Renewable Energy Generation: It is thought that weather-related factors and the production of renewable energy are directly correlated. Clear skies and lots of sunlight are thought to increase the amount of electricity that solar panels can produce. In a similar vein, higher wind speeds are thought to result in more energy being produced by wind turbines  (Devisingh,,2018).
 Threshold Determination: Based on the availability of surplus energy, the project seeks to establish thresholds for the provision of free energy. It is assumed that excess energy results from the generation of renewable energy exceeding local energy demand. In addition to taking grid capacity and storage capacity into account, this analysis may entail looking at historical data on energy output and consumption  (Kumar,2019).
